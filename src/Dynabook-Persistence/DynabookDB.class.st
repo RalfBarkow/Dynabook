@@ -12,10 +12,7 @@ DynabookDB class >> backupDirectoryParent [
 
 { #category : #'loading/saving' }
 DynabookDB class >> schema [
-
-	^ {
-		BabySignLanguageDB.
-		BroadcastifyDB.
+	^ {BabySignLanguageDB.
 		ComputerWorldDB.
 		FlashcardsStDB.
 		IdeasDB.
@@ -23,6 +20,5 @@ DynabookDB class >> schema [
 		SmallWorldDB.
 		TheProjectProjectDB.
 		UkuleleDB.
-		VirtualStashDB.
-	}
+		VirtualStashDB}
 ]
